@@ -1,0 +1,35 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Test and coverage artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# IDE and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local data and generated report materials
+report/*.docx
+screenshots/
+cloned-repos/
+tmp*/
+
+# Source assignment materials should not be published in the project repository
+docs/*.docx
+example/
