@@ -33,3 +33,6 @@ tmp*/
 # Source assignment materials should not be published in the project repository
 docs/*.docx
 example/
+
+# Local AI assistant instructions
+AGENTS.md
