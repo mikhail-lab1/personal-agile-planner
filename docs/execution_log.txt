@@ -1,0 +1,68 @@
+﻿**********************
+Начало записи сценария Windows PowerShell
+Время начала: 20260506224924
+Имя пользователя: PC_HOME\mgruz
+Запуск от имени пользователя: PC_HOME\mgruz
+Имя конфигурации: 
+Компьютер: PC_HOME (Microsoft Windows NT 10.0.26200.0)
+Ведущее приложение: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -File C:\rating-work-git\tools\run_project_checks.ps1
+ИД процесса: 24532
+PSVersion: 5.1.26100.8115
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8115
+BuildVersion: 10.0.26100.8115
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+=== Personal Agile Planner: project checks ===
+Project folder: C:\rating-work-git
+Python executable: C:\Users\mgruz\AppData\Local\Programs\Python\Python313\python.exe
+
+=== Current folder ===
+
+
+=== Git status ===
+On branch develop
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+        modified:   docs/project_description.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        docs/execution_log.txt
+        tools/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+=== Program help ===
+usage: main.py [-h] {add,list} ...
+
+Personal Agile Planner
+
+positional arguments:
+  {add,list}
+    add       Add a new task
+    list      Show all tasks
+
+options:
+  -h, --help  show this help message and exit
+
+=== Program run: task list ===
+No tasks found.
+
+=== Unit tests ===
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.008s
+
+OK
+
+Checks completed. Log saved to: C:\rating-work-git\docs\execution_log.txt
+**********************
+Конец записи протокола Windows PowerShell
+Время окончания: 20260506224925
+**********************
